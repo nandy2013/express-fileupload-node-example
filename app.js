@@ -18,7 +18,7 @@ app.post("/", function (req, res) {
     const file = req.files.filename;
     const filename = file.name;
 
-    file.mv("./upload" + filename, function (err) {
+    file.mv("./upload/" + filename, function (err) {
       if (err) {
         console.log(err);
         res.send("error occured");
