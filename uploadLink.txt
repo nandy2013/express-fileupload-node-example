@@ -1,0 +1,70 @@
+bitbucket
+
+https://adlm.nielsen.com/bitbucket/projects/REFD/repos/datasources/browse?at=DataSupport
+
+ServiceNow
+https://nielsen.service-now.com/nav_to.do?uri=%2Fhome.do%3F
+
+Confluence
+https://adlm.nielsen.com/confluence/collector/pages.action?key=OR
+
+Smoke Test Sheet
+https://docs.google.com/spreadsheets/d/1XtKVv1i7xASNKtoAXguGSTL0Fur9ed_Pc9hGqPC_Za8/edit#gid=0
+E2E / NCS / Training
+
+Macaw
+http://10.7.199.151:7001/macaw/#/urls
+
+AgileCraft
+https://sts.nielsen.com/adfs/ls/idpinitiatedsignon.aspx   
+
+UAT Drop Template 
+https://docs.google.com/spreadsheets/d/1Mu4uCmuHDBJfrvRdHZvJ20L5RlVXp8i0wbDVoZug7OA/edit#gid=0
+
+DRB
+https://meet.google.com/vfz-mjwb-egj
+
+Putty
+10.9.59.61
+username - odiuser 
+password - Hello*123
+cd /ODIData/PNBMDL/SCRIPTS
+
+URL
+
+https://ogrds-qa.nielsen.com/CodingQA/OGRDS/
+https://ogrds-uat.nielsen.com/CodingE2E/OGRDS/
+
+
+OEM Training 
+
+https://dayrhegrdt001.enterprisenet.org:7801/em
+username :  oemuser
+password  :  oem@1234
+DB Credentials : ( DEV DB & QA DB) 
+Username           :               DBSNMP
+Password            :               dban1elsen
+
+OEM Production
+
+OEM URL Link : https://dayrheoemp002.enterprisenet.org:7802/em/
+OEM Credentials :
+Username           :               OGRDSDEVMON
+Password            :               Ogrds@123
+Target : OGRX9PB
+DB Credentials : ( READ_ONLY )
+Username           :               DBSNMP
+Password            :               dban1elsen
+
+OEM Report:
+https://dayrhegrdt001.enterprisenet.org:7801/em
+
+Username           :               oemuser
+Password            :               oem@1234
+DB Credentials : ( READ_ONLY )
+Username           :               DBSNMP
+Password            :               letm3in (6RP)
+
+QA DB
+
+ogrds_qcr/Ogrdsqcr201@10.18.30.21:1521:ogrx11Q
