@@ -2,10 +2,6 @@ const express = require("express");
 const app = express();
 const http = require("http").Server(app).listen(3000);
 const upload = require("express-fileupload");
-const PromiseFtp = require("promise-ftp");
-const ftp = new PromiseFtp();
-const ftpConfig = require("./config/keys");
-//const fs = require('fs');
 
 app.use(upload());
 
@@ -28,21 +24,6 @@ app.post("/", function (req, res) {
         res.send("error occured");
       }
       else {
-        ftp.connect({
-          host: ftpConfig.host,
-          user: ftpConfig.userName,
-          password: ftpConfig.pwd
-        })
-          .then(function (serverMessage) {
-            console.log("Server message: " + serverMessage);
-            return (
-              ftp.put(
-                "./upload/" + filename, ftpConfig.destPath + filename
-              )
-            );
-          }).then(function (serverMessage) {
-            return ftp.end();
-          })
         res.send("Done");
       }
     })
